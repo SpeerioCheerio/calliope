@@ -1,0 +1,9 @@
+# Calliope Vocabulary App Environment Variables
+# Copy this file to .env and fill in your actual values
+
+# OpenAI API Configuration
+OPENAI_API_KEY=sk-your-openai-api-key-here
+OPENAI_MODEL=gpt-4o-mini
+
+# Database Configuration (optional)
+DATABASE_URL=sqlite:///./calliope.db 

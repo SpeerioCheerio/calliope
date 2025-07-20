@@ -1,0 +1,47 @@
+[
+  {
+    "word": "Camaraderie",
+    "pos": "noun",
+    "definition": "Mutual trust and friendship among people who spend a lot of time together.",
+    "example_sentence": "The camaraderie among the team members was evident during the project.",
+    "rarity": "notty",
+    "sentiment": "positive",
+    "date_added": "2025-07-05T16:43:38.789903+00:00"
+  },
+  {
+    "word": "Loquacious",
+    "pos": "adjective",
+    "definition": "tending to talk a great deal; talkative.",
+    "example_sentence": "Her loquacious nature made her the life of the party, engaging everyone in lively conversation.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:43:39.737395+00:00"
+  },
+  {
+    "word": "Distended",
+    "pos": "adjective",
+    "definition": "swollen or expanded due to pressure from inside",
+    "example_sentence": "The patient's abdomen was distended, indicating a possible medical issue.",
+    "rarity": "notty",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:43:40.626754+00:00"
+  },
+  {
+    "word": "Pliancy",
+    "pos": "noun",
+    "definition": "the quality of being pliant; flexibility or adaptability.",
+    "example_sentence": "Her pliancy in negotiations allowed for a successful compromise between the two parties.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:43:42.390318+00:00"
+  },
+  {
+    "word": "Crepitation",
+    "pos": "noun",
+    "definition": "A crackling or rattling sound, often associated with certain medical conditions or the movement of air in the lungs.",
+    "example_sentence": "The doctor noted the crepitation in the patient's lungs during the examination.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:43:43.361353+00:00"
+  }
+]

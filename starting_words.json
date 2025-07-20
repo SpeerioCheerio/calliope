@@ -1,0 +1,1865 @@
+[
+  {
+    "word": "Tractable",
+    "pos": "adjective",
+    "definition": "easily managed or controlled; docile.",
+    "example_sentence": "The tractable puppy quickly learned all the commands.",
+    "rarity": "notty",
+    "sentiment": "positive",
+    "date_added": "2025-07-05T16:46:59.374366+00:00"
+  },
+  {
+    "word": "Officious",
+    "pos": "adjective",
+    "definition": "Assertive of authority in an annoyingly domineering way, especially with regard to petty or trivial matters.",
+    "example_sentence": "The officious clerk insisted on checking every detail of the application, much to the annoyance of the applicants.",
+    "rarity": "luke",
+    "sentiment": "negative",
+    "date_added": "2025-07-05T16:47:00.685454+00:00"
+  },
+  {
+    "word": "Occasioned",
+    "pos": "verb",
+    "definition": "to cause or bring about; to give rise to.",
+    "example_sentence": "The heavy rains occasioned flooding in several areas of the city.",
+    "rarity": "notty",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:47:01.767651+00:00"
+  },
+  {
+    "word": "Avowal",
+    "pos": "noun",
+    "definition": "a declaration or affirmation of one's beliefs, feelings, or intentions.",
+    "example_sentence": "His avowal of support for the initiative was met with enthusiasm from the community.",
+    "rarity": "luke",
+    "sentiment": "positive",
+    "date_added": "2025-07-05T16:47:02.827892+00:00"
+  },
+  {
+    "word": "Desirous",
+    "pos": "adjective",
+    "definition": "having or characterized by a strong desire for something",
+    "example_sentence": "She was desirous of a change in her career.",
+    "rarity": "luke",
+    "sentiment": "positive",
+    "date_added": "2025-07-05T16:47:03.696336+00:00"
+  },
+  {
+    "word": "Remonstrance",
+    "pos": "noun",
+    "definition": "a forcefully reproachful protest.",
+    "example_sentence": "The citizens gathered to present a remonstrance against the new policy.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:47:04.761141+00:00"
+  },
+  {
+    "word": "Repining",
+    "pos": "verb",
+    "definition": "to feel or express discontent; to long for something that one cannot have.",
+    "example_sentence": "She spent her days repining over lost opportunities instead of embracing the present.",
+    "rarity": "luke",
+    "sentiment": "negative",
+    "date_added": "2025-07-05T16:47:05.710532+00:00"
+  },
+  {
+    "word": "Conjugal",
+    "pos": "adjective",
+    "definition": "Relating to marriage or the relationship of a married couple.",
+    "example_sentence": "They enjoyed a conjugal visit after being separated for several months.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:47:06.650099+00:00"
+  },
+  {
+    "word": "Querulous",
+    "pos": "adjective",
+    "definition": "complaining in a petulant or whining manner",
+    "example_sentence": "Her querulous tone made it clear that she was unhappy with the service.",
+    "rarity": "luke",
+    "sentiment": "negative",
+    "date_added": "2025-07-05T16:47:07.500928+00:00"
+  },
+  {
+    "word": "Coppice",
+    "pos": "noun",
+    "definition": "A thicket of small trees or shrubs.",
+    "example_sentence": "The wildlife thrived in the dense coppice, providing shelter and food for various species.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:47:09.278952+00:00"
+  },
+  {
+    "word": "Pecuniary",
+    "pos": "adjective",
+    "definition": "relating to or consisting of money.",
+    "example_sentence": "The pecuniary interests of the investors influenced the decision-making process.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:47:10.383620+00:00"
+  },
+  {
+    "word": "Untinctured",
+    "pos": "adjective",
+    "definition": "Not tinted or colored; lacking any hue or dye.",
+    "example_sentence": "The untinctured fabric allowed the natural beauty of the fibers to shine through.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:47:11.311093+00:00"
+  },
+  {
+    "word": "Hauteur",
+    "pos": "noun",
+    "definition": "haughty manner or spirit; arrogance",
+    "example_sentence": "Her hauteur made it difficult for her to connect with her peers.",
+    "rarity": "luke",
+    "sentiment": "negative",
+    "date_added": "2025-07-05T16:47:12.392267+00:00"
+  },
+  {
+    "word": "Acrimony",
+    "pos": "noun",
+    "definition": "bitterness or ill feeling; resentment.",
+    "example_sentence": "The acrimony between the two rivals was palpable during the debate.",
+    "rarity": "luke",
+    "sentiment": "negative",
+    "date_added": "2025-07-05T16:47:13.321566+00:00"
+  },
+  {
+    "word": "Palliation",
+    "pos": "noun",
+    "definition": "The act of relieving or lessening without curing; mitigation of severity or intensity.",
+    "example_sentence": "The doctor focused on palliation to ensure the patient's comfort during the final stages of illness.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:47:14.460909+00:00"
+  },
+  {
+    "word": "Licentiousness",
+    "pos": "noun",
+    "definition": "Lack of legal or moral restraints; disregard for accepted rules or conventions, especially in sexual behavior.",
+    "example_sentence": "The licentiousness of the party shocked the more conservative guests.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:47:15.649404+00:00"
+  },
+  {
+    "word": "Connubial",
+    "pos": "adjective",
+    "definition": "relating to marriage or the relationship of a married couple.",
+    "example_sentence": "Their connubial bliss was evident in the way they interacted with each other.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:47:16.944291+00:00"
+  },
+  {
+    "word": "Gally",
+    "pos": "noun",
+    "definition": "A large, flat-bottomed boat used for transporting goods, especially in shallow waters.",
+    "example_sentence": "The fishermen loaded their catch onto the gally before heading back to shore.",
+    "rarity": "notty",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:47:17.824631+00:00"
+  },
+  {
+    "word": "Panegyric",
+    "pos": "noun",
+    "definition": "a public speech or published text in praise of someone or something.",
+    "example_sentence": "The author's panegyric for the late leader was both heartfelt and eloquent.",
+    "rarity": "luke",
+    "sentiment": "positive",
+    "date_added": "2025-07-05T16:47:18.879038+00:00"
+  },
+  {
+    "word": "Tacit",
+    "pos": "adjective",
+    "definition": "Understood or implied without being stated; unspoken.",
+    "example_sentence": "Their tacit agreement allowed the project to move forward without formal discussions.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:47:19.857360+00:00"
+  },
+  {
+    "word": "Gaiety",
+    "pos": "noun",
+    "definition": "the state of being cheerful and full of high spirits; merriment.",
+    "example_sentence": "The gaiety of the festival brought joy to everyone in attendance.",
+    "rarity": "luke",
+    "sentiment": "positive",
+    "date_added": "2025-07-05T16:47:20.757299+00:00"
+  },
+  {
+    "word": "Obsequious",
+    "pos": "adjective",
+    "definition": "Obedient or attentive to an excessive or servile degree.",
+    "example_sentence": "The obsequious assistant catered to every whim of the manager, hoping to gain favor.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:47:21.946793+00:00"
+  },
+  {
+    "word": "Arrear",
+    "pos": "noun",
+    "definition": "A state of being behind in payment or obligation; an amount that is overdue.",
+    "example_sentence": "He was in arrears on his mortgage payments, risking foreclosure.",
+    "rarity": "notty",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:47:23.160065+00:00"
+  },
+  {
+    "word": "Blaspheme",
+    "pos": "verb",
+    "definition": "To speak irreverently about God or sacred things; to profane or abuse sacred concepts.",
+    "example_sentence": "The author was accused of blaspheming in his controversial novel.",
+    "rarity": "luke",
+    "sentiment": "negative",
+    "date_added": "2025-07-05T16:47:24.137681+00:00"
+  },
+  {
+    "word": "Bestial",
+    "pos": "adjective",
+    "definition": "of or like an animal; savagely cruel and depraved.",
+    "example_sentence": "The bestial behavior of the criminals shocked the entire community.",
+    "rarity": "luke",
+    "sentiment": "negative",
+    "date_added": "2025-07-05T16:47:25.238524+00:00"
+  },
+  {
+    "word": "Libidinous",
+    "pos": "adjective",
+    "definition": "excessively sexual or lustful",
+    "example_sentence": "His libidinous behavior at the party made everyone uncomfortable.",
+    "rarity": "luke",
+    "sentiment": "negative",
+    "date_added": "2025-07-05T16:47:26.234448+00:00"
+  },
+  {
+    "word": "Licentious",
+    "pos": "adjective",
+    "definition": "lacking legal or moral restraints; especially disregarding sexual restraints",
+    "example_sentence": "The licentious behavior of the partygoers shocked the more conservative attendees.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:47:27.061018+00:00"
+  },
+  {
+    "word": "Conflagration",
+    "pos": "noun",
+    "definition": "A large destructive fire that causes significant damage.",
+    "example_sentence": "The conflagration consumed the entire forest, leaving nothing but ashes in its wake.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:47:28.326235+00:00"
+  },
+  {
+    "word": "Gentility",
+    "pos": "noun",
+    "definition": "The quality of being genteel; refinement, elegance, or good manners.",
+    "example_sentence": "Her gentility was evident in the way she carried herself at the gala.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:47:29.234371+00:00"
+  },
+  {
+    "word": "Exculpate",
+    "pos": "verb",
+    "definition": "To clear from alleged fault or guilt; to absolve.",
+    "example_sentence": "The lawyer worked tirelessly to exculpate her client from the charges.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:47:30.284118+00:00"
+  },
+  {
+    "word": "Abject",
+    "pos": "adjective",
+    "definition": "Extremely bad, unpleasant, and degrading.",
+    "example_sentence": "He lived in abject poverty, struggling to make ends meet.",
+    "rarity": "notty",
+    "sentiment": "negative",
+    "date_added": "2025-07-05T16:47:31.275117+00:00"
+  },
+  {
+    "word": "Myopic",
+    "pos": "adjective",
+    "definition": "lacking foresight or intellectual insight; narrow-minded",
+    "example_sentence": "His myopic view of the situation prevented him from seeing the broader implications of his actions.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:47:32.577348+00:00"
+  },
+  {
+    "word": "Encomium",
+    "pos": "noun",
+    "definition": "a formal expression of praise; a tribute.",
+    "example_sentence": "The speaker delivered an encomium to honor the retiring professor's contributions to the university.",
+    "rarity": "luke",
+    "sentiment": "positive",
+    "date_added": "2025-07-05T16:47:33.460628+00:00"
+  },
+  {
+    "word": "Sepulchers",
+    "pos": "noun",
+    "definition": "Tombs or burial places.",
+    "example_sentence": "The ancient sepulchers were adorned with intricate carvings and inscriptions.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:47:34.419930+00:00"
+  },
+  {
+    "word": "Dolorous",
+    "pos": "adjective",
+    "definition": "expressing or causing sorrow or pain; mournful.",
+    "example_sentence": "The dolorous melody echoed through the empty halls, evoking a deep sense of loss.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:47:35.867220+00:00"
+  },
+  {
+    "word": "Sepulchral",
+    "pos": "adjective",
+    "definition": "of or relating to a tomb or interment; gloomy or dismal",
+    "example_sentence": "The sepulchral tones of the narrator set a haunting atmosphere for the story.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:47:36.994801+00:00"
+  },
+  {
+    "word": "Paroxysm",
+    "pos": "noun",
+    "definition": "a sudden attack or violent expression of a particular emotion or activity.",
+    "example_sentence": "The announcement triggered a paroxysm of joy among the crowd.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:47:37.991505+00:00"
+  },
+  {
+    "word": "Internecine",
+    "pos": "adjective",
+    "definition": "relating to conflict within a group or organization; mutually destructive.",
+    "example_sentence": "The internecine struggle within the party weakened its overall influence.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:47:38.991718+00:00"
+  },
+  {
+    "word": "Annulling",
+    "pos": "verb",
+    "definition": "to declare invalid; to cancel or revoke.",
+    "example_sentence": "The court is annulling the previous ruling due to procedural errors.",
+    "rarity": "notty",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:47:40.245519+00:00"
+  },
+  {
+    "word": "Triune",
+    "pos": "adjective",
+    "definition": "Consisting of three in one; often used in a religious context to describe the Trinity.",
+    "example_sentence": "The concept of the triune God is central to many Christian beliefs.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:47:41.298714+00:00"
+  },
+  {
+    "word": "Abutment",
+    "pos": "noun",
+    "definition": "A structure built to support the lateral pressure of an arch or span, typically at the ends of a bridge or viaduct.",
+    "example_sentence": "The engineers designed a robust abutment to ensure the stability of the bridge during heavy traffic.",
+    "rarity": "notty",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:47:42.614574+00:00"
+  },
+  {
+    "word": "Inveighing",
+    "pos": "verb",
+    "definition": "to speak or write about something with great hostility.",
+    "example_sentence": "The politician was inveighing against the proposed legislation during the debate.",
+    "rarity": "luke",
+    "sentiment": "negative",
+    "date_added": "2025-07-05T16:47:43.539957+00:00"
+  },
+  {
+    "word": "Simony",
+    "pos": "noun",
+    "definition": "The buying or selling of ecclesiastical privileges, for example pardons or benefices.",
+    "example_sentence": "The church was scandalized by the accusations of simony among its leaders.",
+    "rarity": "alex",
+    "sentiment": "negative",
+    "date_added": "2025-07-05T16:47:44.692403+00:00"
+  },
+  {
+    "word": "Pliant",
+    "pos": "adjective",
+    "definition": "able to bend freely without breaking; adaptable or yielding to influence",
+    "example_sentence": "The pliant branches of the willow tree swayed gracefully in the wind.",
+    "rarity": "notty",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:47:45.684008+00:00"
+  },
+  {
+    "word": "Pejorative",
+    "pos": "adjective",
+    "definition": "expressing contempt or disapproval",
+    "example_sentence": "The term 'loser' is often used as a pejorative to belittle someone's achievements.",
+    "rarity": "luke",
+    "sentiment": "negative",
+    "date_added": "2025-07-05T16:47:47.965156+00:00"
+  },
+  {
+    "word": "Didactic",
+    "pos": "adjective",
+    "definition": "Intended to teach, particularly in having moral instruction as an ulterior motive.",
+    "example_sentence": "The didactic nature of the novel made it both informative and engaging for the readers.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:47:48.937312+00:00"
+  },
+  {
+    "word": "Frenetic",
+    "pos": "adjective",
+    "definition": "fast and energetic in a rather wild and uncontrolled way.",
+    "example_sentence": "The frenetic pace of the city left her feeling overwhelmed and exhilarated at the same time.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:47:50.121596+00:00"
+  },
+  {
+    "word": "Oppilation",
+    "pos": "noun",
+    "definition": "The act of obstructing or blocking; obstruction.",
+    "example_sentence": "The oppilation of the river by debris caused significant flooding in the area.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:47:50.970171+00:00"
+  },
+  {
+    "word": "Metes",
+    "pos": "verb",
+    "definition": "To measure or mark off (a boundary or area).",
+    "example_sentence": "The surveyor metes out the land for the new development.",
+    "rarity": "notty",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:47:51.894125+00:00"
+  },
+  {
+    "word": "Castigate",
+    "pos": "verb",
+    "definition": "to reprimand someone severely",
+    "example_sentence": "The teacher decided to castigate the student for his repeated misbehavior.",
+    "rarity": "luke",
+    "sentiment": "negative",
+    "date_added": "2025-07-05T16:47:52.594047+00:00"
+  },
+  {
+    "word": "Bereavement",
+    "pos": "noun",
+    "definition": "the state of having lost someone close, especially through death.",
+    "example_sentence": "She struggled to cope with her bereavement after the loss of her father.",
+    "rarity": "notty",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:47:53.734350+00:00"
+  },
+  {
+    "word": "Mantras",
+    "pos": "noun",
+    "definition": "A word or sound repeated to aid concentration in meditation or as a spiritual practice.",
+    "example_sentence": "She recited her mantras each morning to start the day with a positive mindset.",
+    "rarity": "notty",
+    "sentiment": "positive",
+    "date_added": "2025-07-05T16:47:55.003366+00:00"
+  },
+  {
+    "word": "Paradigmatic",
+    "pos": "adjective",
+    "definition": "Serving as a typical example or pattern of something; exemplary.",
+    "example_sentence": "Her research provided a paradigmatic case study that illustrated the theory effectively.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:47:55.829842+00:00"
+  },
+  {
+    "word": "Perfunctory",
+    "pos": "adjective",
+    "definition": "carried out with a minimum of effort or reflection",
+    "example_sentence": "His perfunctory response indicated he was not truly interested in the discussion.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:47:56.868256+00:00"
+  },
+  {
+    "word": "Endemic",
+    "pos": "adjective",
+    "definition": "Native or restricted to a certain place or region.",
+    "example_sentence": "The species is endemic to the island, found nowhere else in the world.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:47:58.076093+00:00"
+  },
+  {
+    "word": "Presage",
+    "pos": "verb",
+    "definition": "to indicate or warn of in advance; to foresee or predict.",
+    "example_sentence": "The dark clouds seemed to presage a storm coming our way.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:47:59.074594+00:00"
+  },
+  {
+    "word": "Envenom",
+    "pos": "verb",
+    "definition": "to make poisonous or toxic; to infuse with venom.",
+    "example_sentence": "The snake can envenom its prey with a single bite.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:47:59.949217+00:00"
+  },
+  {
+    "word": "Purgation",
+    "pos": "noun",
+    "definition": "The act of purging or cleansing, especially of impurities or undesirable elements.",
+    "example_sentence": "The purgation of the old records was necessary to maintain the integrity of the archives.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:48:01.269426+00:00"
+  },
+  {
+    "word": "Enfiladed",
+    "pos": "verb",
+    "definition": "To arrange in a line or to fire upon from a position along the length of a target.",
+    "example_sentence": "The troops were enfiladed by enemy fire from the ridge above.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:48:02.312103+00:00"
+  },
+  {
+    "word": "Stolidly",
+    "pos": "adverb",
+    "definition": "in a way that shows little or no emotion or animation",
+    "example_sentence": "She stolidly accepted the news without a hint of surprise.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:48:03.480321+00:00"
+  },
+  {
+    "word": "Beneficence",
+    "pos": "noun",
+    "definition": "The quality of being kind and charitable; an act of kindness or generosity.",
+    "example_sentence": "Her beneficence was evident in the way she dedicated her time to helping the less fortunate.",
+    "rarity": "luke",
+    "sentiment": "positive",
+    "date_added": "2025-07-05T16:48:04.506524+00:00"
+  },
+  {
+    "word": "Ineffable",
+    "pos": "adjective",
+    "definition": "Too great or extreme to be expressed in words; indescribable.",
+    "example_sentence": "The beauty of the sunset was ineffable, leaving us all in silent awe.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:48:05.349364+00:00"
+  },
+  {
+    "word": "Detritus",
+    "pos": "noun",
+    "definition": "Waste or debris of any kind.",
+    "example_sentence": "The beach was littered with detritus from the storm.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:48:06.294352+00:00"
+  },
+  {
+    "word": "Largesse",
+    "pos": "noun",
+    "definition": "generosity in bestowing money or gifts upon others",
+    "example_sentence": "The philanthropist was known for his largesse, funding numerous charitable projects.",
+    "rarity": "luke",
+    "sentiment": "positive",
+    "date_added": "2025-07-05T16:48:07.177566+00:00"
+  },
+  {
+    "word": "Simulacrum",
+    "pos": "noun",
+    "definition": "An image or representation of someone or something; a superficial likeness or semblance.",
+    "example_sentence": "The artist created a simulacrum of the city, capturing its essence in a stunning mural.",
+    "rarity": "alex",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:48:08.119291+00:00"
+  },
+  {
+    "word": "Brevity",
+    "pos": "noun",
+    "definition": "the quality of being brief or concise in expression; shortness of duration.",
+    "example_sentence": "The brevity of her speech was appreciated by the audience, as it conveyed the message clearly and quickly.",
+    "rarity": "notty",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:48:09.755797+00:00"
+  },
+  {
+    "word": "Abase",
+    "pos": "verb",
+    "definition": "to lower in rank, office, prestige, or esteem",
+    "example_sentence": "He felt that his job would abase him in the eyes of his peers.",
+    "rarity": "luke",
+    "sentiment": "negative",
+    "date_added": "2025-07-05T16:48:10.771779+00:00"
+  },
+  {
+    "word": "Philanderer",
+    "pos": "noun",
+    "definition": "A person who engages in love affairs frivolously or casually.",
+    "example_sentence": "He was known as a philanderer, never committing to any relationship for long.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:48:11.902207+00:00"
+  },
+  {
+    "word": "Votive",
+    "pos": "adjective",
+    "definition": "Offered or performed in fulfillment of a vow or in gratitude.",
+    "example_sentence": "The votive candles flickered softly in the dimly lit chapel, symbolizing the prayers of the faithful.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:48:13.136714+00:00"
+  },
+  {
+    "word": "Ensconced",
+    "pos": "verb",
+    "definition": "To settle securely or snugly.",
+    "example_sentence": "She was ensconced in her favorite armchair, reading a book by the fire.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:48:14.159110+00:00"
+  },
+  {
+    "word": "Merriment",
+    "pos": "noun",
+    "definition": "Fun and enjoyment; gaiety and laughter.",
+    "example_sentence": "The room was filled with merriment as friends gathered to celebrate the holiday.",
+    "rarity": "notty",
+    "sentiment": "positive",
+    "date_added": "2025-07-05T16:48:15.278926+00:00"
+  },
+  {
+    "word": "Vacillated",
+    "pos": "verb",
+    "definition": "To waver in mind, will, or feeling; to be indecisive or uncertain.",
+    "example_sentence": "She vacillated between accepting the job offer and staying in her current position.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:48:16.543712+00:00"
+  },
+  {
+    "word": "Spurious",
+    "pos": "adjective",
+    "definition": "not being what it purports to be; false or fake.",
+    "example_sentence": "The scientist dismissed the spurious results of the experiment as mere artifacts of faulty methodology.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:48:17.669707+00:00"
+  },
+  {
+    "word": "Perfidious",
+    "pos": "adjective",
+    "definition": "deceitful and untrustworthy",
+    "example_sentence": "His perfidious actions led to the downfall of the organization.",
+    "rarity": "luke",
+    "sentiment": "negative",
+    "date_added": "2025-07-05T16:48:18.886442+00:00"
+  },
+  {
+    "word": "Katabasis",
+    "pos": "noun",
+    "definition": "a descent to the underworld or a journey downwards, often used in a metaphorical sense.",
+    "example_sentence": "The hero's katabasis was a crucial part of his journey, symbolizing his confrontation with inner demons.",
+    "rarity": "alex",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:48:20.146925+00:00"
+  },
+  {
+    "word": "Sinuous",
+    "pos": "adjective",
+    "definition": "Having many curves and turns; lithe and graceful.",
+    "example_sentence": "The sinuous path through the forest was both enchanting and mysterious.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:48:21.096872+00:00"
+  },
+  {
+    "word": "Pomposity",
+    "pos": "noun",
+    "definition": "the quality of being pompous; self-importance.",
+    "example_sentence": "His pomposity was evident in the way he spoke down to his colleagues.",
+    "rarity": "luke",
+    "sentiment": "negative",
+    "date_added": "2025-07-05T16:48:22.220176+00:00"
+  },
+  {
+    "word": "Denuded",
+    "pos": "verb",
+    "definition": "To strip of covering, possessions, or assets; to make bare.",
+    "example_sentence": "The storm denuded the landscape of its lush vegetation, leaving only bare earth.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:48:23.181390+00:00"
+  },
+  {
+    "word": "Reticent",
+    "pos": "adjective",
+    "definition": "not revealing one's thoughts or feelings readily",
+    "example_sentence": "Despite her reticent nature, she surprised everyone with her insightful comments during the meeting.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:48:24.364531+00:00"
+  },
+  {
+    "word": "Dither",
+    "pos": "verb",
+    "definition": "to be indecisive or uncertain; to hesitate.",
+    "example_sentence": "She continued to dither over which dress to wear to the party.",
+    "rarity": "notty",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:48:25.156868+00:00"
+  },
+  {
+    "word": "Palavering",
+    "pos": "verb",
+    "definition": "to talk unnecessarily at length; to engage in idle chatter.",
+    "example_sentence": "The two friends spent the afternoon palavering about their childhood memories.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:48:26.480108+00:00"
+  },
+  {
+    "word": "Compunction",
+    "pos": "noun",
+    "definition": "A feeling of guilt or moral scruple that prevents or follows the doing of something bad.",
+    "example_sentence": "She felt a deep compunction after realizing the impact of her words on others.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:48:27.759579+00:00"
+  },
+  {
+    "word": "Germane",
+    "pos": "adjective",
+    "definition": "Relevant to a subject under consideration.",
+    "example_sentence": "Her comments were germane to the discussion about climate change.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:48:28.710353+00:00"
+  },
+  {
+    "word": "Invective",
+    "pos": "noun",
+    "definition": "insulting, abusive, or highly critical language.",
+    "example_sentence": "The politician's speech was filled with invective against his opponents.",
+    "rarity": "luke",
+    "sentiment": "negative",
+    "date_added": "2025-07-05T16:48:29.804859+00:00"
+  },
+  {
+    "word": "Farcical",
+    "pos": "adjective",
+    "definition": "of or resembling a farce; absurd or ridiculous",
+    "example_sentence": "The farcical nature of the play had the audience in stitches.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:48:30.936976+00:00"
+  },
+  {
+    "word": "Tedium",
+    "pos": "noun",
+    "definition": "the state of being tedious; monotony",
+    "example_sentence": "The tedium of the long meeting made it difficult for anyone to stay focused.",
+    "rarity": "notty",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:48:31.954352+00:00"
+  },
+  {
+    "word": "Baleful",
+    "pos": "adjective",
+    "definition": "threatening harm; menacing.",
+    "example_sentence": "The baleful glare of the predator sent shivers down the spine of its prey.",
+    "rarity": "luke",
+    "sentiment": "negative",
+    "date_added": "2025-07-05T16:48:32.999526+00:00"
+  },
+  {
+    "word": "Apoplectic",
+    "pos": "adjective",
+    "definition": "overcome with anger; extremely indignant.",
+    "example_sentence": "She became apoplectic when she discovered the unfair treatment of her colleagues.",
+    "rarity": "luke",
+    "sentiment": "negative",
+    "date_added": "2025-07-05T16:48:33.871406+00:00"
+  },
+  {
+    "word": "Acolytes",
+    "pos": "noun",
+    "definition": "Assistants or followers, especially in a religious context.",
+    "example_sentence": "The acolytes prepared the altar for the evening service.",
+    "rarity": "notty",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:48:34.910454+00:00"
+  },
+  {
+    "word": "Probity",
+    "pos": "noun",
+    "definition": "The quality of having strong moral principles; honesty and decency.",
+    "example_sentence": "Her probity in all her dealings earned her the respect of her colleagues.",
+    "rarity": "luke",
+    "sentiment": "positive",
+    "date_added": "2025-07-05T16:48:36.680884+00:00"
+  },
+  {
+    "word": "Infantile",
+    "pos": "adjective",
+    "definition": "Of or relating to infants; childish or immature.",
+    "example_sentence": "His infantile behavior during the meeting frustrated his colleagues.",
+    "rarity": "notty",
+    "sentiment": "negative",
+    "date_added": "2025-07-05T16:48:38.005298+00:00"
+  },
+  {
+    "word": "Somnolent",
+    "pos": "adjective",
+    "definition": "sleepy; drowsy.",
+    "example_sentence": "The somnolent atmosphere of the library made it difficult to concentrate on studying.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:48:39.420331+00:00"
+  },
+  {
+    "word": "Surreptitiously",
+    "pos": "adverb",
+    "definition": "In a way that attempts to avoid notice or attention; secretively.",
+    "example_sentence": "She surreptitiously glanced at her watch during the meeting.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:48:40.372574+00:00"
+  },
+  {
+    "word": "Abscond",
+    "pos": "verb",
+    "definition": "to leave hurriedly and secretly, typically to avoid detection or arrest.",
+    "example_sentence": "The thief decided to abscond with the stolen jewels before the police arrived.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:48:41.542711+00:00"
+  },
+  {
+    "word": "Bilious",
+    "pos": "adjective",
+    "definition": "Affected by or associated with nausea or vomiting; spiteful or bad-tempered.",
+    "example_sentence": "His bilious remarks during the meeting created an uncomfortable atmosphere.",
+    "rarity": "luke",
+    "sentiment": "negative",
+    "date_added": "2025-07-05T16:48:42.526770+00:00"
+  },
+  {
+    "word": "Fomenting",
+    "pos": "verb",
+    "definition": "to instigate or stir up (an undesirable or violent sentiment or course of action)",
+    "example_sentence": "The politician was accused of fomenting unrest among the citizens.",
+    "rarity": "notty",
+    "sentiment": "negative",
+    "date_added": "2025-07-05T16:48:44.098519+00:00"
+  },
+  {
+    "word": "Untoward",
+    "pos": "adjective",
+    "definition": "unfavorable or inappropriate; unexpected and unwelcome.",
+    "example_sentence": "His untoward behavior at the meeting surprised everyone.",
+    "rarity": "luke",
+    "sentiment": "negative",
+    "date_added": "2025-07-05T16:48:45.345743+00:00"
+  },
+  {
+    "word": "Pariah",
+    "pos": "noun",
+    "definition": "a person who is rejected or ostracized by society or a particular group.",
+    "example_sentence": "After the scandal, he became a pariah in his own community.",
+    "rarity": "luke",
+    "sentiment": "negative",
+    "date_added": "2025-07-05T16:48:47.528346+00:00"
+  },
+  {
+    "word": "Erudite",
+    "pos": "adjective",
+    "definition": "having or showing great knowledge or learning",
+    "example_sentence": "The erudite professor captivated his students with his extensive knowledge of ancient civilizations.",
+    "rarity": "luke",
+    "sentiment": "positive",
+    "date_added": "2025-07-05T16:48:48.590554+00:00"
+  },
+  {
+    "word": "Fatuous",
+    "pos": "adjective",
+    "definition": "Silly and pointless; lacking intelligence or thought.",
+    "example_sentence": "His fatuous remarks during the meeting did not contribute to the discussion.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:48:49.439583+00:00"
+  },
+  {
+    "word": "Mutability",
+    "pos": "noun",
+    "definition": "the quality of being changeable or variable.",
+    "example_sentence": "The mutability of the weather makes it difficult to plan outdoor events.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:48:50.387793+00:00"
+  },
+  {
+    "word": "Epicene",
+    "pos": "adjective",
+    "definition": "Having characteristics of both sexes; androgynous.",
+    "example_sentence": "The epicene fashion trend blurs the lines between traditional gender norms.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:48:51.571426+00:00"
+  },
+  {
+    "word": "Garrulous",
+    "pos": "adjective",
+    "definition": "excessively talkative, especially on trivial matters.",
+    "example_sentence": "The garrulous old man entertained us with stories from his youth.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:48:52.450622+00:00"
+  },
+  {
+    "word": "Ablative",
+    "pos": "adjective",
+    "definition": "relating to or denoting a case of nouns and pronouns in some languages that expresses separation or movement away from something.",
+    "example_sentence": "In Latin, the ablative case is used to indicate the means by which an action is performed.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:48:53.867283+00:00"
+  },
+  {
+    "word": "Dative",
+    "pos": "noun",
+    "definition": "The grammatical case used to indicate the indirect object of a verb, typically marking the recipient of something.",
+    "example_sentence": "In the sentence 'She gave him a book', 'him' is in the dative case.",
+    "rarity": "notty",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:48:54.996302+00:00"
+  },
+  {
+    "word": "Aorist",
+    "pos": "noun",
+    "definition": "A grammatical tense used in some languages to denote a past action without specifying its duration or completion.",
+    "example_sentence": "In Ancient Greek, the aorist tense is often used to convey a simple past action.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:48:55.834479+00:00"
+  },
+  {
+    "word": "Lineament",
+    "pos": "noun",
+    "definition": "A distinctive feature or characteristic, especially of the face or body.",
+    "example_sentence": "The lineament of her face was strikingly beautiful, with high cheekbones and a strong jawline.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:48:57.402321+00:00"
+  },
+  {
+    "word": "Exegesis",
+    "pos": "noun",
+    "definition": "Critical explanation or interpretation of a text, especially a religious text.",
+    "example_sentence": "The scholar's exegesis of the ancient manuscript revealed new insights into its meaning.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:48:58.479658+00:00"
+  },
+  {
+    "word": "Palimpsest",
+    "pos": "noun",
+    "definition": "A manuscript or piece of writing material on which later writing has been superimposed on effaced earlier writing.",
+    "example_sentence": "The ancient manuscript was a palimpsest, revealing layers of history beneath its surface.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:48:59.692920+00:00"
+  },
+  {
+    "word": "Alacrity",
+    "pos": "noun",
+    "definition": "Brisk and cheerful readiness.",
+    "example_sentence": "She accepted the invitation with alacrity, eager to join the festivities.",
+    "rarity": "luke",
+    "sentiment": "positive",
+    "date_added": "2025-07-05T16:49:00.650198+00:00"
+  },
+  {
+    "word": "Salient",
+    "pos": "adjective",
+    "definition": "Most noticeable or important; prominent.",
+    "example_sentence": "The salient features of the proposal were highlighted during the presentation.",
+    "rarity": "notty",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:49:01.415473+00:00"
+  },
+  {
+    "word": "Perforce",
+    "pos": "adverb",
+    "definition": "by necessity; inevitably",
+    "example_sentence": "She had to, perforce, accept the terms of the agreement.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:49:02.375358+00:00"
+  },
+  {
+    "word": "Protuberant",
+    "pos": "adjective",
+    "definition": "bulging or protruding; sticking out.",
+    "example_sentence": "The protuberant eyes of the owl gave it an eerie appearance in the moonlight.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:49:03.461612+00:00"
+  },
+  {
+    "word": "Saturnine",
+    "pos": "adjective",
+    "definition": "gloomy or sullen in mood or temperament; having a dark, moody disposition.",
+    "example_sentence": "His saturnine demeanor made it difficult for others to approach him.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:49:04.896676+00:00"
+  },
+  {
+    "word": "Preternatural",
+    "pos": "adjective",
+    "definition": "Beyond what is normal or natural; supernatural.",
+    "example_sentence": "Her preternatural ability to predict outcomes left everyone in awe.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:49:05.856564+00:00"
+  },
+  {
+    "word": "Fumigate",
+    "pos": "verb",
+    "definition": "to apply smoke, vapor, or gas to an area in order to disinfect or purify it, often used in pest control.",
+    "example_sentence": "The pest control team was called in to fumigate the entire building after the infestation was discovered.",
+    "rarity": "notty",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:49:07.179659+00:00"
+  },
+  {
+    "word": "Amorphous",
+    "pos": "adjective",
+    "definition": "Lacking a definite shape or form; shapeless.",
+    "example_sentence": "The artist's work often featured amorphous shapes that defied traditional boundaries.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:49:08.090797+00:00"
+  },
+  {
+    "word": "Encumbrance",
+    "pos": "noun",
+    "definition": "a burden or hindrance; a claim against property.",
+    "example_sentence": "The encumbrance on the property made it difficult to sell.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:49:09.013887+00:00"
+  },
+  {
+    "word": "Saccharine",
+    "pos": "adjective",
+    "definition": "Excessively sweet or sentimental; cloying.",
+    "example_sentence": "Her saccharine compliments made it hard to take her seriously.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:49:09.743752+00:00"
+  },
+  {
+    "word": "Traipsing",
+    "pos": "verb",
+    "definition": "to walk or move wearily or reluctantly.",
+    "example_sentence": "They were traipsing through the muddy fields after the rain.",
+    "rarity": "notty",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:49:10.701294+00:00"
+  },
+  {
+    "word": "Maundering",
+    "pos": "verb",
+    "definition": "To move or wander aimlessly; to talk or write in a rambling manner.",
+    "example_sentence": "He spent the afternoon maundering through the park, lost in his thoughts.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:49:12.623466+00:00"
+  },
+  {
+    "word": "Syllogism",
+    "pos": "noun",
+    "definition": "A form of reasoning in which a conclusion is drawn from two given or assumed propositions (premises).",
+    "example_sentence": "The philosopher used a syllogism to illustrate his argument about morality.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:49:13.777316+00:00"
+  },
+  {
+    "word": "Swive",
+    "pos": "verb",
+    "definition": "To engage in sexual intercourse; to copulate.",
+    "example_sentence": "The couple swive beneath the stars, lost in their own world.",
+    "rarity": "alex",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:49:14.946372+00:00"
+  },
+  {
+    "word": "Carnality",
+    "pos": "noun",
+    "definition": "The quality of being carnal; physical, especially sexual, nature.",
+    "example_sentence": "The novel explores themes of carnality and desire, delving into the complexities of human relationships.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:49:15.931550+00:00"
+  },
+  {
+    "word": "Roistering",
+    "pos": "verb",
+    "definition": "To engage in noisy revelry or merrymaking.",
+    "example_sentence": "The crowd was roistering in the streets, celebrating the festival with music and laughter.",
+    "rarity": "luke",
+    "sentiment": "positive",
+    "date_added": "2025-07-05T16:49:16.983127+00:00"
+  },
+  {
+    "word": "Fecundity",
+    "pos": "noun",
+    "definition": "The ability to produce an abundance of offspring or new growth; fertility.",
+    "example_sentence": "The fecundity of the land ensured a bountiful harvest each year.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:49:17.943799+00:00"
+  },
+  {
+    "word": "Anathema",
+    "pos": "noun",
+    "definition": "A person or thing detested or loathed; a formal curse by a pope or council excommunicating a person or denouncing a doctrine.",
+    "example_sentence": "The new policy was anathema to the traditionalists within the organization.",
+    "rarity": "luke",
+    "sentiment": "negative",
+    "date_added": "2025-07-05T16:49:19.804050+00:00"
+  },
+  {
+    "word": "Vicegerent",
+    "pos": "noun",
+    "definition": "A person appointed to act on behalf of a sovereign or ruler.",
+    "example_sentence": "The vicegerent was tasked with overseeing the administration of the province in the king's absence.",
+    "rarity": "alex",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:49:21.003268+00:00"
+  },
+  {
+    "word": "Tonsure",
+    "pos": "noun",
+    "definition": "The act of cutting hair, especially as a religious rite; a hairstyle characterized by a shaved crown and long hair around the sides, traditionally worn by monks.",
+    "example_sentence": "The monk's tonsure was a symbol of his devotion and commitment to his faith.",
+    "rarity": "alex",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:49:22.365178+00:00"
+  },
+  {
+    "word": "Catamite",
+    "pos": "noun",
+    "definition": "A boy or young man who is a passive sexual partner in a pederastic relationship.",
+    "example_sentence": "In ancient Greece, the role of the catamite was often romanticized in literature and art.",
+    "rarity": "alex",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:49:23.422519+00:00"
+  },
+  {
+    "word": "Absconded",
+    "pos": "verb",
+    "definition": "to leave hurriedly and secretly, typically to avoid detection or arrest.",
+    "example_sentence": "The thief absconded with the stolen jewels before the police arrived.",
+    "rarity": "notty",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:49:24.987195+00:00"
+  },
+  {
+    "word": "Piquant",
+    "pos": "adjective",
+    "definition": "having a pleasantly sharp taste or appetizing flavor; stimulating to the taste or mind; interesting or exciting.",
+    "example_sentence": "The chef's new dish was a piquant blend of spices that delighted the diners.",
+    "rarity": "luke",
+    "sentiment": "positive",
+    "date_added": "2025-07-05T16:49:26.050432+00:00"
+  },
+  {
+    "word": "Fulsomely",
+    "pos": "adverb",
+    "definition": "In a manner that is excessive or insincere; lavishly or abundantly.",
+    "example_sentence": "He praised her fulsomely, leaving everyone in the room feeling uncomfortable.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:49:27.222390+00:00"
+  },
+  {
+    "word": "Harridan",
+    "pos": "noun",
+    "definition": "A strict, bossy, or belligerent old woman.",
+    "example_sentence": "The harridan scolded the children for playing too close to the street.",
+    "rarity": "alex",
+    "sentiment": "negative",
+    "date_added": "2025-07-05T16:49:28.060378+00:00"
+  },
+  {
+    "word": "Bawdier",
+    "pos": "adjective",
+    "definition": "more obscene or vulgar in nature; characterized by lewdness or indecency.",
+    "example_sentence": "The comedian's bawdier jokes elicited both laughter and gasps from the audience.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:49:30.350282+00:00"
+  },
+  {
+    "word": "Palling",
+    "pos": "verb",
+    "definition": "to become less interesting or exciting; to lose appeal.",
+    "example_sentence": "The novelty of the game was palling after weeks of constant play.",
+    "rarity": "notty",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:49:31.263857+00:00"
+  },
+  {
+    "word": "Intransigence",
+    "pos": "noun",
+    "definition": "refusal to change one's views or to agree about something.",
+    "example_sentence": "Her intransigence in negotiations led to a stalemate that frustrated both parties.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:49:32.166398+00:00"
+  },
+  {
+    "word": "Impetuosity",
+    "pos": "noun",
+    "definition": "the quality of being impulsive or acting without thought; rashness.",
+    "example_sentence": "Her impetuosity often led her to make hasty decisions that she later regretted.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:49:33.219084+00:00"
+  },
+  {
+    "word": "Trundled",
+    "pos": "verb",
+    "definition": "to move or roll heavily or clumsily.",
+    "example_sentence": "The children trundled the large ball down the hill.",
+    "rarity": "notty",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:49:33.966293+00:00"
+  },
+  {
+    "word": "Apotropaic",
+    "pos": "adjective",
+    "definition": "Having the ability to ward off evil or harm.",
+    "example_sentence": "The ancient Greeks often used apotropaic symbols to protect their homes from malevolent spirits.",
+    "rarity": "alex",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:49:34.829482+00:00"
+  },
+  {
+    "word": "Effrontery",
+    "pos": "noun",
+    "definition": "shameless boldness; insolence",
+    "example_sentence": "She had the effrontery to ask for a raise after being late to work multiple times.",
+    "rarity": "luke",
+    "sentiment": "negative",
+    "date_added": "2025-07-05T16:49:36.185278+00:00"
+  },
+  {
+    "word": "Episcopal",
+    "pos": "adjective",
+    "definition": "Relating to a bishop or bishops; specifically, relating to the Episcopal Church.",
+    "example_sentence": "The Episcopal congregation gathered for their weekly service.",
+    "rarity": "notty",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:49:37.333229+00:00"
+  },
+  {
+    "word": "Ophidian",
+    "pos": "adjective",
+    "definition": "Relating to or resembling snakes.",
+    "example_sentence": "The ophidian design of the sculpture captivated the visitors.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:49:38.531305+00:00"
+  },
+  {
+    "word": "Mendacity",
+    "pos": "noun",
+    "definition": "the quality of being untruthful; tendency to lie.",
+    "example_sentence": "The politician's mendacity was exposed during the debate, leading to a loss of public trust.",
+    "rarity": "luke",
+    "sentiment": "negative",
+    "date_added": "2025-07-05T16:49:39.848701+00:00"
+  },
+  {
+    "word": "Recalcitrant",
+    "pos": "adjective",
+    "definition": "having an obstinately uncooperative attitude toward authority or discipline",
+    "example_sentence": "The recalcitrant student refused to follow the teacher's instructions, causing disruption in the classroom.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:49:41.033673+00:00"
+  },
+  {
+    "word": "Iniquity",
+    "pos": "noun",
+    "definition": "Immoral or grossly unfair behavior.",
+    "example_sentence": "The iniquity of the regime was evident in its treatment of dissenters.",
+    "rarity": "luke",
+    "sentiment": "negative",
+    "date_added": "2025-07-05T16:49:42.026815+00:00"
+  },
+  {
+    "word": "Inculcate",
+    "pos": "verb",
+    "definition": "to instill an idea, attitude, or habit by persistent instruction",
+    "example_sentence": "Teachers aim to inculcate a love of reading in their students.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:49:42.908762+00:00"
+  },
+  {
+    "word": "Inchoate",
+    "pos": "adjective",
+    "definition": "just begun and not fully formed or developed; rudimentary.",
+    "example_sentence": "The inchoate ideas presented in the meeting needed further refinement before implementation.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:49:43.973157+00:00"
+  },
+  {
+    "word": "Appellation",
+    "pos": "noun",
+    "definition": "a name or title, especially one that distinguishes or identifies.",
+    "example_sentence": "The wine's appellation indicates its region of origin and quality.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:49:44.850368+00:00"
+  },
+  {
+    "word": "Scabrous",
+    "pos": "adjective",
+    "definition": "Rough and covered with scabs; also used to describe something that is scandalous or indecent.",
+    "example_sentence": "The scabrous surface of the old tree was home to various insects.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:49:46.029856+00:00"
+  },
+  {
+    "word": "Sangfroid",
+    "pos": "noun",
+    "definition": "Composure or coolness shown in danger or under trying circumstances.",
+    "example_sentence": "Despite the chaos around him, she maintained her sangfroid and made rational decisions.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:49:47.174091+00:00"
+  },
+  {
+    "word": "Equanimity",
+    "pos": "noun",
+    "definition": "Mental calmness, stability, or composure, especially in a difficult situation.",
+    "example_sentence": "She approached the crisis with equanimity, maintaining her composure despite the chaos around her.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:49:48.271007+00:00"
+  },
+  {
+    "word": "Impenturbility",
+    "pos": "noun",
+    "definition": "The quality of being imperturbable; calmness and composure under stress.",
+    "example_sentence": "Her impenturbility in the face of chaos was admired by all her colleagues.",
+    "rarity": "alex",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:49:49.528345+00:00"
+  },
+  {
+    "word": "Paucity",
+    "pos": "noun",
+    "definition": "the presence of something in only small or insufficient quantities; scarcity.",
+    "example_sentence": "The paucity of resources in the region has led to increased competition among local businesses.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:49:50.458911+00:00"
+  },
+  {
+    "word": "Referent",
+    "pos": "noun",
+    "definition": "A person or thing to which a name or concept refers.",
+    "example_sentence": "In linguistics, the referent of a pronoun is the noun it replaces.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:49:51.501018+00:00"
+  },
+  {
+    "word": "Bromides",
+    "pos": "noun",
+    "definition": "A compound containing bromine, especially one used in medicine or as a sedative.",
+    "example_sentence": "The doctor prescribed bromides to help alleviate her anxiety before the surgery.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:49:52.575353+00:00"
+  },
+  {
+    "word": "Lassitude",
+    "pos": "noun",
+    "definition": "A state of physical or mental weariness; lack of energy.",
+    "example_sentence": "After a long week of work, she felt a deep lassitude that made it hard to get out of bed.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:49:53.694757+00:00"
+  },
+  {
+    "word": "Japer",
+    "pos": "noun",
+    "definition": "A person who jokes or engages in playful banter; a joker.",
+    "example_sentence": "The japer entertained the crowd with his witty remarks and playful antics.",
+    "rarity": "luke",
+    "sentiment": "positive",
+    "date_added": "2025-07-05T16:49:54.895579+00:00"
+  },
+  {
+    "word": "Racy",
+    "pos": "adjective",
+    "definition": "Sexually suggestive or provocative; lively and entertaining.",
+    "example_sentence": "The novel was criticized for its racy content, but many readers found it thrilling.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:49:56.370507+00:00"
+  },
+  {
+    "word": "Perambulate",
+    "pos": "verb",
+    "definition": "To walk through, about, or over; to traverse.",
+    "example_sentence": "They decided to perambulate the park to enjoy the fresh air.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:49:57.243378+00:00"
+  },
+  {
+    "word": "Cognomen",
+    "pos": "noun",
+    "definition": "A surname or family name, especially in ancient Rome.",
+    "example_sentence": "In ancient Rome, a cognomen was often used to indicate a person's branch of the family or their personal characteristics.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:49:58.475837+00:00"
+  },
+  {
+    "word": "Jocularity",
+    "pos": "noun",
+    "definition": "the quality of being jovial or full of humor; a playful or joking manner.",
+    "example_sentence": "His jocularity lightened the mood of the entire gathering.",
+    "rarity": "luke",
+    "sentiment": "positive",
+    "date_added": "2025-07-05T16:49:59.591054+00:00"
+  },
+  {
+    "word": "Debonair",
+    "pos": "adjective",
+    "definition": "Charming, confident, and elegant in manner or appearance.",
+    "example_sentence": "He walked into the room with a debonair smile that captivated everyone.",
+    "rarity": "luke",
+    "sentiment": "positive",
+    "date_added": "2025-07-05T16:50:01.150331+00:00"
+  },
+  {
+    "word": "Opalescent",
+    "pos": "adjective",
+    "definition": "Showing varying colors as an opal does; iridescent.",
+    "example_sentence": "The opalescent surface of the water reflected the colors of the sunset beautifully.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:50:02.078870+00:00"
+  },
+  {
+    "word": "Acrid",
+    "pos": "adjective",
+    "definition": "having an irritatingly strong and unpleasant taste or smell.",
+    "example_sentence": "The acrid smoke from the burning tires filled the air, making it difficult to breathe.",
+    "rarity": "notty",
+    "sentiment": "negative",
+    "date_added": "2025-07-05T16:50:03.227192+00:00"
+  },
+  {
+    "word": "Sibilant",
+    "pos": "adjective",
+    "definition": "characterized by a hissing or whistling sound; producing a sibilant sound.",
+    "example_sentence": "The sibilant whispers of the wind through the trees created an eerie atmosphere.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:50:04.324034+00:00"
+  },
+  {
+    "word": "Coevals",
+    "pos": "noun",
+    "definition": "Individuals or entities that exist or occur at the same time; contemporaries.",
+    "example_sentence": "The coevals of the ancient civilization left behind remarkable artifacts.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:50:05.264500+00:00"
+  },
+  {
+    "word": "Fey",
+    "pos": "adjective",
+    "definition": "Having an otherworldly, magical, or fairylike quality; whimsical or enchanting.",
+    "example_sentence": "The forest was filled with fey creatures that danced under the moonlight.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:50:06.902491+00:00"
+  },
+  {
+    "word": "Palliative",
+    "pos": "adjective",
+    "definition": "Relieving pain without dealing with the cause of the condition.",
+    "example_sentence": "The palliative care team focused on improving the patient's quality of life.",
+    "rarity": "notty",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:50:07.842064+00:00"
+  },
+  {
+    "word": "Perineum",
+    "pos": "noun",
+    "definition": "The area between the anus and the genitals.",
+    "example_sentence": "The doctor explained the importance of hygiene in the perineum area.",
+    "rarity": "notty",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:50:08.920768+00:00"
+  },
+  {
+    "word": "Tartan",
+    "pos": "noun",
+    "definition": "A patterned fabric consisting of criss-crossed horizontal and vertical bands in multiple colors, traditionally associated with Scottish heritage.",
+    "example_sentence": "He wore a kilt made of a vibrant tartan during the festival.",
+    "rarity": "notty",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:50:10.490059+00:00"
+  },
+  {
+    "word": "Chameleonic",
+    "pos": "adjective",
+    "definition": "characterized by the ability to change color or adapt to different environments; versatile or adaptable in behavior or appearance.",
+    "example_sentence": "Her chameleonic personality allowed her to fit in seamlessly with any social group.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:50:12.258784+00:00"
+  },
+  {
+    "word": "Voluptas",
+    "pos": "noun",
+    "definition": "A Latin term meaning pleasure or delight, often associated with sensual enjoyment or luxury.",
+    "example_sentence": "The garden was designed to evoke a sense of voluptas, inviting visitors to indulge in its beauty and tranquility.",
+    "rarity": "alex",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:50:13.564202+00:00"
+  },
+  {
+    "word": "Tritest",
+    "pos": "unknown",
+    "definition": "Definition unavailable.",
+    "example_sentence": "Example unavailable.",
+    "rarity": "notty",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:50:13.963532+00:00"
+  },
+  {
+    "word": "Inveigled",
+    "pos": "verb",
+    "definition": "To persuade someone to do something by means of deception or flattery.",
+    "example_sentence": "She inveigled him into signing the contract by promising him a lucrative deal.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:50:15.033686+00:00"
+  },
+  {
+    "word": "Coruscating",
+    "pos": "adjective",
+    "definition": "shining brightly; glittering",
+    "example_sentence": "The coruscating lights of the city skyline dazzled the onlookers.",
+    "rarity": "luke",
+    "sentiment": "positive",
+    "date_added": "2025-07-05T16:50:16.177350+00:00"
+  },
+  {
+    "word": "Fructuate",
+    "pos": "verb",
+    "definition": "to change or vary irregularly; to rise and fall in number or amount.",
+    "example_sentence": "The stock prices tend to fructuate based on market trends.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:50:17.520595+00:00"
+  },
+  {
+    "word": "Pugilist",
+    "pos": "noun",
+    "definition": "A person who fights with the fists; a boxer.",
+    "example_sentence": "The pugilist trained rigorously for the championship match, determined to prove his skill in the ring.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:50:18.725235+00:00"
+  },
+  {
+    "word": "Crenulated",
+    "pos": "adjective",
+    "definition": "Having a wavy or scalloped edge; characterized by a series of small, rounded projections or indentations.",
+    "example_sentence": "The crenulated design of the castle walls added to its medieval charm.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:50:19.730800+00:00"
+  },
+  {
+    "word": "Memory",
+    "pos": "noun",
+    "definition": "The faculty by which the mind stores and remembers information.",
+    "example_sentence": "Her memory of the event was vivid and detailed.",
+    "rarity": "notty",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:50:20.711359+00:00"
+  },
+  {
+    "word": "Phocine",
+    "pos": "adjective",
+    "definition": "Relating to or resembling seals, especially the family Phocidae.",
+    "example_sentence": "The phocine species are known for their streamlined bodies and adept swimming abilities.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:50:21.704490+00:00"
+  },
+  {
+    "word": "Favonian",
+    "pos": "adjective",
+    "definition": "of or relating to a mild, gentle breeze; specifically, a reference to the west wind in classical mythology.",
+    "example_sentence": "The Favonian winds brought a sense of calm to the tumultuous sea, allowing the sailors to navigate safely.",
+    "rarity": "alex",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:50:24.453194+00:00"
+  },
+  {
+    "word": "Meretricious",
+    "pos": "adjective",
+    "definition": "Appearing attractive but having in reality no value or integrity.",
+    "example_sentence": "The meretricious decorations of the hotel masked its underlying lack of quality.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:50:25.528866+00:00"
+  },
+  {
+    "word": "Nacreous",
+    "pos": "adjective",
+    "definition": "Having a pearly luster or appearance, resembling nacre.",
+    "example_sentence": "The nacreous sheen of the seashells caught the sunlight beautifully.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:50:26.633565+00:00"
+  },
+  {
+    "word": "Nicating",
+    "pos": "verb",
+    "definition": "To move or act in a way that resembles a flicking or winking motion, often used in reference to the nictitating membrane in animals.",
+    "example_sentence": "The hawk's nicating membrane shielded its eyes as it swooped down to catch its prey.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:50:27.907867+00:00"
+  },
+  {
+    "word": "Incipient",
+    "pos": "adjective",
+    "definition": "in an initial stage; beginning to happen or develop.",
+    "example_sentence": "The incipient signs of the disease were barely noticeable at first.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:50:28.980111+00:00"
+  },
+  {
+    "word": "Indefatigable",
+    "pos": "adjective",
+    "definition": "Persisting tirelessly; incapable of being fatigued.",
+    "example_sentence": "Her indefatigable spirit inspired everyone around her to keep pushing forward despite the challenges.",
+    "rarity": "luke",
+    "sentiment": "positive",
+    "date_added": "2025-07-05T16:50:29.841110+00:00"
+  },
+  {
+    "word": "Rigmarole",
+    "pos": "noun",
+    "definition": "a lengthy and complicated procedure or set of instructions; a confusing or elaborate story or statement.",
+    "example_sentence": "The meeting turned into a rigmarole, with endless discussions and no clear outcome.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:50:31.058804+00:00"
+  },
+  {
+    "word": "Alembic",
+    "pos": "noun",
+    "definition": "A distilling apparatus consisting of two vessels connected by a tube, used for the purification of liquids.",
+    "example_sentence": "The alchemist carefully placed the mixture in the alembic to extract the essence of the herbs.",
+    "rarity": "alex",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:50:31.951015+00:00"
+  },
+  {
+    "word": "Plumulaceous",
+    "pos": "adjective",
+    "definition": "Resembling or having the characteristics of down or soft feathers.",
+    "example_sentence": "The plumulaceous texture of the fabric made it incredibly soft against the skin.",
+    "rarity": "alex",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:50:33.100692+00:00"
+  },
+  {
+    "word": "Umbrace",
+    "pos": "verb",
+    "definition": "To embrace or accept something wholeheartedly, often used in a figurative sense.",
+    "example_sentence": "She chose to umbrace the challenges of her new job with enthusiasm.",
+    "rarity": "luke",
+    "sentiment": "positive",
+    "date_added": "2025-07-05T16:50:34.142214+00:00"
+  },
+  {
+    "word": "Purblind",
+    "pos": "adjective",
+    "definition": "Having impaired or defective vision; lacking insight or understanding.",
+    "example_sentence": "His purblind reasoning led him to overlook the obvious solution.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:50:35.267899+00:00"
+  },
+  {
+    "word": "Saturate",
+    "pos": "verb",
+    "definition": "to cause (a substance) to unite with the greatest possible amount of another substance; to soak thoroughly.",
+    "example_sentence": "The rain will saturate the ground, making it muddy and difficult to walk on.",
+    "rarity": "notty",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:50:36.397720+00:00"
+  },
+  {
+    "word": "Archly",
+    "pos": "adverb",
+    "definition": "In a playful or mischievous manner; with a sly or teasing quality.",
+    "example_sentence": "She smiled archly, hinting at secrets yet to be revealed.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:50:37.361618+00:00"
+  },
+  {
+    "word": "Carbuncles",
+    "pos": "noun",
+    "definition": "A painful, pus-filled bump that forms under the skin, typically caused by bacterial infection.",
+    "example_sentence": "The doctor diagnosed the patient with several carbuncles on his back, requiring immediate treatment.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:50:38.541291+00:00"
+  },
+  {
+    "word": "Jalopy",
+    "pos": "noun",
+    "definition": "an old, dilapidated vehicle",
+    "example_sentence": "He drove a jalopy that barely made it to the end of the street.",
+    "rarity": "notty",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:50:39.404602+00:00"
+  },
+  {
+    "word": "Hoary",
+    "pos": "adjective",
+    "definition": "having gray or white hair; ancient or venerable",
+    "example_sentence": "The hoary old man shared stories of his youth by the fire.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:50:41.110235+00:00"
+  },
+  {
+    "word": "Rubious",
+    "pos": "adjective",
+    "definition": "Having a reddish color; resembling ruby.",
+    "example_sentence": "The rubious sunset cast a warm glow over the horizon.",
+    "rarity": "alex",
+    "sentiment": "positive",
+    "date_added": "2025-07-05T16:50:42.062934+00:00"
+  },
+  {
+    "word": "Lentor",
+    "pos": "noun",
+    "definition": "The quality of being slow or sluggish; a state of inactivity or delay.",
+    "example_sentence": "The lentor of the afternoon made it difficult to concentrate on work.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:50:43.154980+00:00"
+  },
+  {
+    "word": "Spoonerette",
+    "pos": "noun",
+    "definition": "A humorous or whimsical term for a spoonerism, often used to describe a playful or accidental mix-up of sounds in speech.",
+    "example_sentence": "His speech was filled with spoonerettes that had the audience in stitches.",
+    "rarity": "alex",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:50:44.406758+00:00"
+  },
+  {
+    "word": "Maudlin",
+    "pos": "adjective",
+    "definition": "self-pityingly or tearfully sentimental, often through drunkenness.",
+    "example_sentence": "His maudlin speech at the party left everyone feeling uncomfortable.",
+    "rarity": "luke",
+    "sentiment": "negative",
+    "date_added": "2025-07-05T16:50:45.373632+00:00"
+  },
+  {
+    "word": "Parlance",
+    "pos": "noun",
+    "definition": "A particular way of speaking or using words, especially a way common to a specific group or profession.",
+    "example_sentence": "In legal parlance, the term 'tort' refers to a wrongful act leading to civil legal liability.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:50:46.543725+00:00"
+  },
+  {
+    "word": "Addendum",
+    "pos": "noun",
+    "definition": "An item of additional material added at the end of a book or document.",
+    "example_sentence": "The author included an addendum to address the recent developments in the field.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:50:47.883772+00:00"
+  },
+  {
+    "word": "Antimeridian",
+    "pos": "noun",
+    "definition": "The half of the Earth that is west of the Prime Meridian and east of the International Date Line.",
+    "example_sentence": "The antimeridian is significant in determining time zones across the globe.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:50:49.001859+00:00"
+  },
+  {
+    "word": "Callipygian",
+    "pos": "adjective",
+    "definition": "Having well-shaped buttocks.",
+    "example_sentence": "The dancer's callipygian form captivated the audience.",
+    "rarity": "alex",
+    "sentiment": "positive",
+    "date_added": "2025-07-05T16:50:49.784256+00:00"
+  },
+  {
+    "word": "Emeritus",
+    "pos": "adjective",
+    "definition": "retired but retaining an honorary title corresponding to that held immediately before retirement",
+    "example_sentence": "The professor was named emeritus after decades of dedicated service to the university.",
+    "rarity": "luke",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:50:50.703846+00:00"
+  },
+  {
+    "word": "Gonadal",
+    "pos": "adjective",
+    "definition": "Relating to the gonads, which are the organs that produce gametes; specifically, the testes in males and the ovaries in females.",
+    "example_sentence": "The study focused on the gonadal hormones and their effects on behavior.",
+    "rarity": "notty",
+    "sentiment": "neutral",
+    "date_added": "2025-07-05T16:50:52.002338+00:00"
+  }
+]
