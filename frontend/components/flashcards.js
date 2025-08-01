@@ -77,7 +77,7 @@ function displayCurrentFlashcard() {
             <button onclick="window.nextFlashcard()">Next →</button>
         </div>
         <div class="flashcard-shortcuts">
-            <p><strong>Shortcuts:</strong> ← Previous | → Next | Space Flip | S Shuffle</p>
+            <p><strong>Shortcuts:</strong> ← Previous | → Next | ↑/Space Flip | S Shuffle</p>
         </div>
     `;
     
@@ -166,7 +166,13 @@ function populateSelect(selectId, options) {
 
 // Setup keyboard shortcuts for flashcards
 function setupFlashcardKeyboardShortcuts() {
-    document.addEventListener('keydown', function(e) {
+    // Remove any existing flashcard keyboard event listeners
+    if (window.flashcardKeyboardHandler) {
+        document.removeEventListener('keydown', window.flashcardKeyboardHandler);
+    }
+    
+    // Create the keyboard handler function
+    window.flashcardKeyboardHandler = function(e) {
         // Only process shortcuts when flashcard page is active and not in input field
         if (!document.getElementById('page-overlay').classList.contains('active') ||
             e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA' || e.target.tagName === 'SELECT') {
@@ -185,6 +191,7 @@ function setupFlashcardKeyboardShortcuts() {
                 e.preventDefault();
                 nextFlashcard();
                 break;
+            case 'ArrowUp':
             case ' ':
                 e.preventDefault();
                 flipFlashcard();
@@ -195,7 +202,10 @@ function setupFlashcardKeyboardShortcuts() {
                 shuffleFlashcards();
                 break;
         }
-    });
+    };
+    
+    // Add the new event listener
+    document.addEventListener('keydown', window.flashcardKeyboardHandler);
 }
 
 // Setup event listeners

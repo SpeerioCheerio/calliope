@@ -72,8 +72,8 @@ def init_database():
 
 
 def get_word_by_name(db: Session, word: str) -> Optional[Word]:
-    """Get word by name"""
-    return db.query(Word).filter(Word.word.ilike(f"%{word}%")).first()
+    """Get word by name (exact match, case insensitive)"""
+    return db.query(Word).filter(Word.word.ilike(word)).first()
 
 
 def add_word(db: Session, word_data: WordCreate) -> Word:
@@ -277,4 +277,33 @@ def delete_word(db: Session, word_id: int) -> bool:
 
 def get_word_by_id(db: Session, word_id: int) -> Optional[Word]:
     """Get word by ID"""
-    return db.query(Word).filter(Word.id == word_id).first() 
+    return db.query(Word).filter(Word.id == word_id).first()
+
+
+def get_words_added_today(db: Session) -> int:
+    """Get count of words added today"""
+    today = datetime.utcnow().date()
+    return db.query(Word).filter(
+        func.date(Word.date_added) == today
+    ).count()
+
+
+def get_current_streak(db: Session) -> int:
+    """Calculate current streak of consecutive days with word additions"""
+    today = datetime.utcnow().date()
+    current_date = today
+    streak = 0
+    
+    while True:
+        # Check if any words were added on this date
+        words_on_date = db.query(Word).filter(
+            func.date(Word.date_added) == current_date
+        ).count()
+        
+        if words_on_date > 0:
+            streak += 1
+            current_date -= timedelta(days=1)
+        else:
+            break
+    
+    return streak 

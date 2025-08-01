@@ -65,6 +65,7 @@ class PredictionRequest(BaseModel):
     sentence: str = Field(..., min_length=1)
     delimiter_position: int = Field(..., ge=0)
     sentiment: Optional[SentimentEnum] = None
+    pos: Optional[str] = None
 
 
 class PredictionResponse(BaseModel):
@@ -86,6 +87,7 @@ class WordEnhancement(BaseModel):
     original_word: str
     suggested_words: List[WordResponse]
     context: str
+    original_pos: Optional[str] = None
 
 
 class ParagraphAnalysisResponse(BaseModel):

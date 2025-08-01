@@ -46,10 +46,13 @@ function displayHighlightedParagraph(data) {
     const resultsContainer = document.getElementById('analysis-results');
     const paragraphInput = document.getElementById('paragraph-input');
     
-
-    
     if (!data.enhancements || data.enhancements.length === 0) {
-        showToast('No vocabulary enhancements found for this text.', 'warning');
+        resultsContainer.style.display = 'block';
+        resultsContainer.innerHTML = `
+            <div class="no-results">
+                <p>No vocabulary enhancements found for this text.</p>
+            </div>
+        `;
         return;
     }
     
@@ -110,8 +113,6 @@ export function openWordModal(originalWord) {
     
     if (!enhancement) return;
     
-
-    
     currentSelectedWord = originalWord;
     currentSelectedOptions.clear();
     
@@ -126,20 +127,20 @@ export function openWordModal(originalWord) {
             <div class="modal-body">
                 <div class="enhancement-options">
                     ${enhancement.suggested_words.map(word => `
-                        <div class="word-card rarity-${word.rarity || 'notty'}" 
+                        <div class="word-card rarity-${word.rarity}" 
                              onclick="toggleWordSelection('${word.word}')"
                              data-word="${word.word}">
                             <div class="word-header">
-                                <span class="word-title">${word.word || 'Unknown'}</span>
+                                <span class="word-title">${word.word}</span>
                                 <div class="word-header-right">
-                                    <span class="word-pos">${word.pos || 'unknown'}</span>
+                                    <span class="word-pos">${word.pos}</span>
                                 </div>
                             </div>
-                            <div class="word-definition">${word.definition || 'No definition available'}</div>
-                            <div class="word-example">"${word.example_sentence || 'No example available'}"</div>
+                            <div class="word-definition">${word.definition}</div>
+                            <div class="word-example">"${word.example_sentence}"</div>
                             <div class="word-badges">
-                                <span class="rarity-badge rarity-${word.rarity || 'notty'}">${word.rarity || 'notty'}</span>
-                                <span class="sentiment-badge">${getSentimentIcon(word.sentiment || 'neutral')} ${word.sentiment || 'neutral'}</span>
+                                <span class="rarity-badge rarity-${word.rarity}">${word.rarity}</span>
+                                <span class="sentiment-badge">${getSentimentIcon(word.sentiment)} ${word.sentiment}</span>
                             </div>
                         </div>
                     `).join('')}

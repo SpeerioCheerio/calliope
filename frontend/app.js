@@ -135,7 +135,18 @@ async function loadAddWordPage() {
 async function loadDatabasePage() {
     const content = document.getElementById('page-content');
     
-    content.innerHTML = `
+    // Keep loading state while preparing the database interface
+    content.innerHTML = '<div class="loading">Loading database...</div>';
+    
+    // Setup the database interface after a brief moment to allow loading to show
+    await setupDatabaseInterface();
+}
+
+async function setupDatabaseInterface() {
+    const content = document.getElementById('page-content');
+    
+    // Create the database HTML structure
+    const databaseHTML = `
         <h1>Database</h1>
         <div class="database-controls">
             <div class="controls-row">
@@ -156,7 +167,6 @@ async function loadDatabasePage() {
                     <option value="">All Sentiments</option>
                     <option value="positive">Positive</option>
                     <option value="negative">Negative</option>
-                    <option value="neutral">Neutral</option>
                     <option value="formal">Formal</option>
                 </select>
                 <button id="reset-filters-btn">Reset</button>
@@ -178,11 +188,14 @@ async function loadDatabasePage() {
                 </select>
             </div>
         </div>
-        <div id="words-grid"></div>
+        <div id="words-grid"><div class="loading">Loading words...</div></div>
     `;
     
-    // Setup event listeners using the component
-    setupDatabaseEventListeners();
+    // Replace loading with interface but keep words-grid in loading state
+    content.innerHTML = databaseHTML;
+    
+    // Setup event listeners using the component (this will trigger the actual data load)
+    await setupDatabaseEventListeners();
 }
 
 async function loadThesaurusPage() {
@@ -212,10 +225,16 @@ async function loadPredictionPage() {
                 <option value="neutral">Neutral</option>
                 <option value="formal">Formal</option>
             </select>
+            <select id="pos-filter">
+                <option value="">All Parts of Speech (Optional)</option>
+            </select>
             <button id="predict-btn">Predict Words</button>
         </div>
         <div id="prediction-results" style="display: none;"></div>
     `;
+    
+    // Load POS options for the filter
+    await loadPredictionPOSOptions();
     
     setupPredictionEventListeners();
 }
@@ -297,6 +316,7 @@ async function loadStatsPage() {
         </div>
     `;
     
+    // Always fetch fresh statistics when the page is opened
     await loadStats();
 }
 
@@ -378,6 +398,16 @@ async function loadPartsOfSpeech() {
         populateSelectOptions('pos-filter', data.parts_of_speech);
     } catch (error) {
         console.warn('Failed to load parts of speech:', error);
+    }
+}
+
+// Load Parts of Speech for prediction page
+async function loadPredictionPOSOptions() {
+    try {
+        const data = await apiCall('/parts-of-speech');
+        populateSelectOptions('pos-filter', data.parts_of_speech);
+    } catch (error) {
+        console.warn('Failed to load parts of speech for prediction:', error);
     }
 }
 

@@ -39,16 +39,19 @@ export async function predictWords() {
     predictButton.textContent = 'Predicting...';
     
     try {
-        // Get selected sentiment
+        // Get selected sentiment and POS
         const sentimentFilter = document.getElementById('sentiment-filter');
+        const posFilter = document.getElementById('pos-filter');
         const selectedSentiment = sentimentFilter ? sentimentFilter.value : '';
+        const selectedPOS = posFilter ? posFilter.value : '';
         
         const data = await apiCall('/predict', {
             method: 'POST',
             body: JSON.stringify({ 
                 sentence: cleanSentence,
                 delimiter_position: delimiterPosition,
-                sentiment: selectedSentiment || null
+                sentiment: selectedSentiment || null,
+                pos: selectedPOS || null
             })
         });
         

@@ -579,7 +579,7 @@ button:active {
     position: relative;
     display: flex;
     flex-direction: column;
-    height: auto;
+    min-height: 280px;
 }
 
 .word-card:hover {
@@ -839,8 +839,8 @@ button:active {
     background: linear-gradient(135deg, #F5F5DC 0%, #FAF0E6 100%);
     border: 2px solid #8B4513;
     border-radius: 20px;
-    width: 90%;
-    max-width: 700px;
+    width: 95%;
+    max-width: 1000px;
     max-height: 95vh;
     overflow-y: auto;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
@@ -871,18 +871,13 @@ button:active {
     padding: 2rem;
     margin: 0;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-    transition: all 0.3s ease;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    height: auto;
+    transition: none;
+    transform: none;
 }
 
 .view-modal .word-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
-    border-color: #A0522D;
-    background: linear-gradient(135deg, #FAF0E6 0%, #F5F5DC 100%);
+    transform: none;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
 
 .view-modal .word-header {
@@ -928,48 +923,21 @@ button:active {
 .view-modal .word-example {
     font-size: 1.1rem;
     font-style: italic;
-    margin-bottom: 1.5rem;
     color: #5D4037;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+    padding-left: 1rem;
+    border-left: 4px solid #8B4513;
     background: rgba(139, 69, 19, 0.05);
     padding: 1rem;
-    border-radius: 12px;
-    border-left: 4px solid #8B4513;
+    border-radius: 0 10px 10px 0;
 }
 
 .view-modal .word-badges {
     display: flex;
-    margin-top: auto;
     gap: 1rem;
     flex-wrap: wrap;
     justify-content: flex-start;
-}
-
-/* Reset rarity badge styling when applied to view-modal cards */
-.view-modal .word-card.rarity-notty,
-.view-modal .word-card.rarity-luke,
-.view-modal .word-card.rarity-alex {
-    background: linear-gradient(135deg, #F5F5DC 0%, #FAF0E6 100%);
-    color: #2F1B14;
-    border-color: #8B4513;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-    animation: none;
-    transform: none;
-}
-
-/* Rarity-based glow effects on view-modal card hover */
-.view-modal .word-card.rarity-notty:hover {
-    box-shadow: 0 20px 40px rgba(0,0,0,0.2), 0 0 30px rgba(76, 175, 80, 0.6);
-    border-color: #A0522D;
-}
-
-.view-modal .word-card.rarity-luke:hover {
-    box-shadow: 0 20px 40px rgba(0,0,0,0.2), 0 0 30px rgba(33, 150, 243, 0.6);
-    border-color: #A0522D;
-}
-
-.view-modal .word-card.rarity-alex:hover {
-    box-shadow: 0 20px 40px rgba(0,0,0,0.2), 0 0 30px rgba(156, 39, 176, 0.6);
-    border-color: #A0522D;
 }
 
 /* Regular edit modal styles */
@@ -1927,8 +1895,6 @@ button:active {
 
 
 
-
-
 /* Enhancement options container */
 .enhancement-options {
     display: flex;
@@ -1940,11 +1906,10 @@ button:active {
 }
 
 .enhancement-options .word-card {
-    margin-bottom: 1.5rem;
-    height: auto;
+    margin-bottom: 0;
+    min-height: 280px;
     max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     cursor: pointer;
     transition: all 0.2s ease;
 }

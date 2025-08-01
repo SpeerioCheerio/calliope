@@ -451,8 +451,7 @@ function showViewModal(word) {
                 <button class="close-btn" onclick="closeViewModal()">&times;</button>
             </div>
             <div class="modal-body">
-                <div class="enhancement-options">
-                    <div class="word-card view-card rarity-${word.rarity}">
+                <div class="word-card view-card">
                     <div class="word-header">
                         <span class="word-title">${word.word}</span>
                         <div class="word-header-right">
@@ -465,7 +464,6 @@ function showViewModal(word) {
                         <span class="rarity-badge rarity-${word.rarity}">${word.rarity}</span>
                         <span class="sentiment-badge">${getSentimentIcon(word.sentiment)} ${word.sentiment}</span>
                     </div>
-                </div>
                 </div>
             </div>
         </div>
@@ -696,7 +694,7 @@ function handleItemsPerPageChange() {
 }
 
 // Setup event listeners
-export async function setupDatabaseEventListeners() {
+export function setupDatabaseEventListeners() {
     const prevBtn = document.getElementById('prev-btn');
     const nextBtn = document.getElementById('next-btn');
     const resetBtn = document.getElementById('reset-filters-btn');
@@ -748,33 +746,14 @@ export async function setupDatabaseEventListeners() {
         }
     });
     
-    // Load essential data and initialize interface
-    await initializeDatabaseInterface();
-}
-
-// Initialize database interface with proper loading sequence
-async function initializeDatabaseInterface() {
-    try {
-        // Load parts of speech for filter dropdown first
-        await fetchPartsOfSpeech();
+    // Preload parts of speech for edit modal and populate filter dropdown
+    fetchPartsOfSpeech().then(() => {
         populatePOSFilter();
-        
-        // Load autocomplete words in parallel with initial data
-        const [, ] = await Promise.all([
-            loadAutocompleteWords(),
-            loadDatabaseWords()
-        ]);
-        
-    } catch (error) {
-        console.error('Error initializing database interface:', error);
-        const wordsGrid = document.getElementById('words-grid');
-        if (wordsGrid) {
-            wordsGrid.innerHTML = `
-                <div class="error-message">
-                    <p>Failed to load database. Please try again.</p>
-                    <button onclick="location.reload()">Refresh Page</button>
-                </div>
-            `;
-        }
-    }
+    });
+    
+    // Load autocomplete words
+    loadAutocompleteWords();
+    
+    // Load initial data
+    loadDatabaseWords();
 } 

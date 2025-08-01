@@ -12,6 +12,7 @@ from pathlib import Path
 from db import get_db, init_database, get_word_by_name, add_word, get_words_by_filter, get_words_for_flashcards
 from db import get_word_of_the_day, search_words_by_similarity, get_all_words, get_words_for_prediction
 from db import update_word, delete_word, get_word_by_id, get_words_by_filter_with_count
+from db import get_words_added_today, get_current_streak
 from models import Word
 from schemas import (
     AddWordRequest, AddWordResponse, WordResponse, ThesaurusRequest, ThesaurusResponse,
@@ -363,25 +364,37 @@ async def predict_word_fill(request: PredictionRequest, db: Session = Depends(ge
         # Insert delimiter in sentence
         sentence_with_blank = insert_delimiter_in_sentence(sentence, request.delimiter_position)
         
-        # Get words from database for vocabulary list, filtered by sentiment if provided
+        # Get words from database for vocabulary list, filtered by sentiment and POS if provided
+        query = db.query(Word)
+        
         if request.sentiment:
-            # Filter words by sentiment
-            filtered_words = db.query(Word).filter(Word.sentiment == request.sentiment).all()
-            vocabulary_list = [w.word for w in filtered_words]
-        else:
-            # Get all words if no sentiment filter
-            all_words = get_all_words(db)
-            vocabulary_list = [w.word for w in all_words]
+            query = query.filter(Word.sentiment == request.sentiment)
+        
+        if request.pos:
+            query = query.filter(Word.pos == request.pos.lower())
+        
+        filtered_words = query.all()
+        vocabulary_list = [w.word for w in filtered_words]
         
         # Get predictions from OpenAI
         predicted_words = predict_words(sentence_with_blank, vocabulary_list)
         
-        # Get full word data for predictions
+        # Get full word data for predictions, ensuring they match the filters
         suggestions = []
         for word in predicted_words:
             db_word = get_word_by_name(db, word)
             if db_word:
-                suggestions.append(WordResponse.model_validate(db_word))
+                # Double-check that the word matches our filters
+                matches_filters = True
+                
+                if request.sentiment and db_word.sentiment != request.sentiment:
+                    matches_filters = False
+                
+                if request.pos and db_word.pos.lower() != request.pos.lower():
+                    matches_filters = False
+                
+                if matches_filters:
+                    suggestions.append(WordResponse.model_validate(db_word))
         
         return PredictionResponse(
             sentence=sentence,
@@ -406,12 +419,16 @@ async def analyze_paragraph_endpoint(request: ParagraphAnalysisRequest, db: Sess
         all_words = get_all_words(db)
         vocabulary_list = [w.word for w in all_words]
         
+        # Create POS mapping for vocabulary words to enable POS matching
+        vocabulary_pos_map = {w.word.lower(): w.pos for w in all_words}
+        
         # Debug print
         print(f"[DEBUG] Retrieved {len(all_words)} words from database")
         print(f"[DEBUG] Vocabulary list: {vocabulary_list[:10]}...")
+        print(f"[DEBUG] POS map sample: {dict(list(vocabulary_pos_map.items())[:5])}")
         
-        # Analyze paragraph using OpenAI
-        analysis_results = analyze_paragraph(text, vocabulary_list)
+        # Analyze paragraph using OpenAI with POS information
+        analysis_results = analyze_paragraph(text, vocabulary_list, vocabulary_pos_map)
         
         # Debug print
         print(f"[DEBUG] OpenAI analysis_results: {analysis_results}")
@@ -425,20 +442,34 @@ async def analyze_paragraph_endpoint(request: ParagraphAnalysisRequest, db: Sess
             suggested_words = result.get("suggested_words", [])
             context = result.get("context", "")
             
+
+            
             # Get full word data for suggested words
             enhancement_words = []
             for suggested_word in suggested_words:
-                db_word = get_word_by_name(db, suggested_word)
+                # Clean the suggested word (remove extra spaces, handle case)
+                clean_word = suggested_word.strip().lower()
+                db_word = get_word_by_name(db, clean_word)
                 if db_word:
-                    enhancement_words.append(WordResponse.model_validate(db_word))
-                    
-                    # Also add to suggestions for backward compatibility (use first suggestion)
-                    if not suggestions or suggestions[-1].original_word != original_word:
-                        suggestions.append(WordSuggestion(
-                            original_word=original_word,
-                            suggested_word=WordResponse.model_validate(db_word),
-                            context=context
-                        ))
+                    word_response = WordResponse.model_validate(db_word)
+                    enhancement_words.append(word_response)
+                else:
+                    # Try with different cases if not found
+                    db_word = get_word_by_name(db, suggested_word.strip())
+                    if db_word:
+                        word_response = WordResponse.model_validate(db_word)
+                        enhancement_words.append(word_response)
+            
+            # Process enhancement_words for backward compatibility 
+            for db_word in enhancement_words:
+                # Also add to suggestions for backward compatibility (use first suggestion)
+                if not suggestions or suggestions[-1].original_word != original_word:
+                    suggestions.append(WordSuggestion(
+                        original_word=original_word,
+                        suggested_word=db_word,
+                        context=context
+                    ))
+                    break  # Only add one to suggestions for backward compatibility
             
             # Add to enhancements if we have words
             if enhancement_words:
@@ -447,9 +478,6 @@ async def analyze_paragraph_endpoint(request: ParagraphAnalysisRequest, db: Sess
                     suggested_words=enhancement_words,
                     context=context
                 ))
-        
-        # Debug print final response
-        print(f"[DEBUG] Final response: {len(suggestions)} suggestions, {len(enhancements)} enhancements")
         
         return ParagraphAnalysisResponse(
             original_text=text,
@@ -500,7 +528,7 @@ async def get_parts_of_speech(db: Session = Depends(get_db)):
         words = get_all_words(db)
         pos_set = set()
         for word in words:
-            pos_set.add(word.pos.upper())
+            pos_set.add(word.pos.lower())
         
         return {"parts_of_speech": sorted(list(pos_set))}
     
@@ -526,16 +554,20 @@ async def get_database_stats(db: Session = Depends(get_db)):
         for word in all_words:
             rarity = word.rarity
             sentiment = word.sentiment
-            pos = word.pos.upper()
+            pos = word.pos.lower()
             
             rarity_counts[rarity] = rarity_counts.get(rarity, 0) + 1
             sentiment_counts[sentiment] = sentiment_counts.get(sentiment, 0) + 1
             pos_counts[pos] = pos_counts.get(pos, 0) + 1
         
+        # Get words added today and current streak
+        words_added_today = get_words_added_today(db)
+        current_streak = get_current_streak(db)
+        
         return {
             "total_words": total_words,
-            "words_added_today": 0,  # TODO: Implement based on date_added
-            "current_streak": 0,     # TODO: Implement streak calculation
+            "words_added_today": words_added_today,
+            "current_streak": current_streak,
             "rarity_distribution": rarity_counts,
             "sentiment_distribution": sentiment_counts,
             "pos_distribution": pos_counts
