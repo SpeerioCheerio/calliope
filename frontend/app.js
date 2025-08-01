@@ -82,6 +82,8 @@ function closePage() {
 function setupGlobalNavigation() {
     window.openPage = openPage;
     window.closePage = closePage;
+    window.openHelpModal = openHelpModal;
+    window.closeHelpModal = closeHelpModal;
 }
 
 // Word of the Day
@@ -436,7 +438,13 @@ function setupEventListeners() {
     // Close page with Escape key
     document.addEventListener('keydown', function(e) {
         if (e.key === 'Escape') {
-            closePage();
+            // Check if help modal is open first
+            const helpModal = document.getElementById('help-modal');
+            if (helpModal && helpModal.classList.contains('active')) {
+                closeHelpModal();
+            } else {
+                closePage();
+            }
         }
     });
 }
@@ -483,4 +491,35 @@ function setupKeyboardShortcuts() {
             }
         }
     });
-} 
+}
+
+// Help Modal Functions
+function openHelpModal() {
+    const helpModal = document.getElementById('help-modal');
+    if (helpModal) {
+        helpModal.classList.add('active');
+        // Prevent body scrolling when modal is open
+        document.body.style.overflow = 'hidden';
+    }
+}
+
+function closeHelpModal() {
+    const helpModal = document.getElementById('help-modal');
+    if (helpModal) {
+        helpModal.classList.remove('active');
+        // Restore body scrolling
+        document.body.style.overflow = '';
+    }
+}
+
+// Close help modal when clicking outside the modal content
+document.addEventListener('DOMContentLoaded', function() {
+    const helpModal = document.getElementById('help-modal');
+    if (helpModal) {
+        helpModal.addEventListener('click', function(e) {
+            if (e.target === helpModal) {
+                closeHelpModal();
+            }
+        });
+    }
+}); 

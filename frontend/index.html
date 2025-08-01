@@ -18,6 +18,9 @@
 <body>
     <!-- Main Dashboard -->
     <div id="main-dashboard" class="dashboard active">
+        <!-- Help Button -->
+        <button id="help-btn" class="help-button" onclick="openHelpModal()" title="Help & Guide">?</button>
+        
         <header class="header">
             <h1>Calliope</h1>
             <p>Vocabulary Learning Platform</p>
@@ -91,6 +94,143 @@
 
     <!-- Toast Notifications -->
     <div id="toast-container" class="toast-container"></div>
+
+    <!-- Help Modal -->
+    <div id="help-modal" class="modal-overlay help-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Calliope Help & Guide</h2>
+                <button class="close-modal" onclick="closeHelpModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="help-content">
+                    <div class="help-intro">
+                        <p><strong>Welcome to Calliope!</strong> Your advanced vocabulary learning platform. Here's how to make the most of each feature:</p>
+                    </div>
+
+                    <div class="help-section">
+                        <h3>Word of the Day</h3>
+                        <p>Start each day with a new sophisticated vocabulary word. Each word includes:</p>
+                        <ul>
+                            <li><strong>Definition:</strong> Clear, precise meaning</li>
+                            <li><strong>Example:</strong> Contextual usage in a sentence</li>
+                            <li><strong>Rarity:</strong> Common Advanced (Notty), Less Common (Luke), or Rare/Archaic (Alex)</li>
+                            <li><strong>Sentiment:</strong> Emotional tone (Positive, Negative, Neutral, Formal)</li>
+                        </ul>
+                    </div>
+
+                    <div class="help-section">
+                        <h3>Add Word</h3>
+                        <p>Expand your vocabulary database with AI assistance:</p>
+                        <ul>
+                            <li>Enter any word and get automatic definitions and examples</li>
+                            <li>Review and edit AI-generated content before saving</li>
+                            <li>Get spelling suggestions for misspelled words</li>
+                            <li>Accept, edit, or reject words before adding to your database</li>
+                        </ul>
+                    </div>
+
+                    <div class="help-section">
+                        <h3>Database</h3>
+                        <p>Browse and manage your entire vocabulary collection:</p>
+                        <ul>
+                            <li><strong>Search:</strong> Find words by name or definition with autocomplete</li>
+                            <li><strong>Filter:</strong> Sort by part of speech, rarity, or sentiment</li>
+                            <li><strong>Manage:</strong> View, edit, or delete words (right-click for quick actions)</li>
+                            <li><strong>Navigate:</strong> Use pagination controls to browse large collections</li>
+                        </ul>
+                    </div>
+
+                    <div class="help-section">
+                        <h3>Thesaurus</h3>
+                        <p>Discover word relationships within your vocabulary:</p>
+                        <ul>
+                            <li>Enter any word to find synonyms from your personal database</li>
+                            <li>See full word information for each synonym</li>
+                            <li>Understand connections between words you've learned</li>
+                        </ul>
+                    </div>
+
+                    <div class="help-section">
+                        <h3>Prediction</h3>
+                        <p>Get AI-powered word suggestions for sentence completion:</p>
+                        <ul>
+                            <li>Enter a sentence with an underscore (_) where you want suggestions</li>
+                            <li>Filter suggestions by sentiment or part of speech</li>
+                            <li>Click any suggestion to insert it into your sentence</li>
+                            <li>Learn contextual word usage and practice vocabulary</li>
+                        </ul>
+                    </div>
+
+                    <div class="help-section">
+                        <h3>Flashcards</h3>
+                        <p>Practice vocabulary through interactive flashcards:</p>
+                        <ul>
+                            <li><strong>Filters:</strong> Customize by part of speech, rarity, sentiment, or count</li>
+                            <li><strong>Navigation:</strong> Use arrows, click to flip, or keyboard shortcuts</li>
+                            <li><strong>Shortcuts:</strong> ← Previous | → Next | ↑/Space Flip | S Shuffle</li>
+                            <li><strong>Study:</strong> Click cards to reveal definitions and examples</li>
+                        </ul>
+                    </div>
+
+                    <div class="help-section">
+                        <h3>Analyzer</h3>
+                        <p>Enhance your writing with vocabulary upgrades:</p>
+                        <ul>
+                            <li>Paste any text to identify enhancement opportunities</li>
+                            <li>Click highlighted words to see sophisticated alternatives</li>
+                            <li>Get 2-5 suggestions per word from your vocabulary database</li>
+                            <li>Replace words and copy the enhanced text</li>
+                        </ul>
+                    </div>
+
+                    <div class="help-section">
+                        <h3>Statistics</h3>
+                        <p>Track your vocabulary learning progress:</p>
+                        <ul>
+                            <li>Monitor total word count and daily additions</li>
+                            <li>View learning streaks and growth patterns</li>
+                            <li>Analyze distribution by part of speech, rarity, and sentiment</li>
+                        </ul>
+                    </div>
+
+                    <div class="help-navigation">
+                        <h3>Keyboard Shortcuts</h3>
+                        <div class="shortcuts-grid">
+                            <div class="shortcut-item">
+                                <kbd>Ctrl+A</kbd> <span>Add Word</span>
+                            </div>
+                            <div class="shortcut-item">
+                                <kbd>Ctrl+D</kbd> <span>Database</span>
+                            </div>
+                            <div class="shortcut-item">
+                                <kbd>Ctrl+T</kbd> <span>Thesaurus</span>
+                            </div>
+                            <div class="shortcut-item">
+                                <kbd>Ctrl+P</kbd> <span>Prediction</span>
+                            </div>
+                            <div class="shortcut-item">
+                                <kbd>Ctrl+F</kbd> <span>Flashcards</span>
+                            </div>
+                            <div class="shortcut-item">
+                                <kbd>Ctrl+R</kbd> <span>Analyzer</span>
+                            </div>
+                            <div class="shortcut-item">
+                                <kbd>Ctrl+S</kbd> <span>Statistics</span>
+                            </div>
+                            <div class="shortcut-item">
+                                <kbd>Esc</kbd> <span>Close Page/Modal</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="help-footer">
+                        </strong> inspired by a spice worm.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script type="module" src="app.js"></script>
 </body>
