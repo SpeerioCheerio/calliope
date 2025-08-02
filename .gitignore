@@ -83,7 +83,7 @@ coverage.xml
 .ipynb_checkpoints
 
 # pyenv
-.python-version
+# .python-version  # Commented out to allow Heroku to detect Python version
 
 # pipenv
 Pipfile.lock
