@@ -4,8 +4,8 @@ from pathlib import Path
 from sqlalchemy import create_engine, func, or_
 from sqlalchemy.orm import sessionmaker, Session
 from sqlalchemy.exc import IntegrityError
-from models import Base, Word, Config
-from schemas import WordCreate, DatabaseFilter, FlashcardFilter
+from backend.models import Base, Word, Config
+from backend.schemas import WordCreate, DatabaseFilter, FlashcardFilter
 from typing import List, Optional, Dict
 from datetime import datetime, timedelta
 import random
