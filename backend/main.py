@@ -9,20 +9,20 @@ import json
 from pathlib import Path
 
 # Local imports
-from db import get_db, init_database, get_word_by_name, add_word, get_words_by_filter, get_words_for_flashcards
-from db import get_word_of_the_day, search_words_by_similarity, get_all_words, get_words_for_prediction
-from db import update_word, delete_word, get_word_by_id, get_words_by_filter_with_count
-from db import get_words_added_today, get_current_streak
-from models import Word
-from schemas import (
+from backend.db import get_db, init_database, get_word_by_name, add_word, get_words_by_filter, get_words_for_flashcards
+from backend.db import get_word_of_the_day, search_words_by_similarity, get_all_words, get_words_for_prediction
+from backend.db import update_word, delete_word, get_word_by_id, get_words_by_filter_with_count
+from backend.db import get_words_added_today, get_current_streak
+from backend.models import Word
+from backend.schemas import (
     AddWordRequest, AddWordResponse, WordResponse, ThesaurusRequest, ThesaurusResponse,
     PredictionRequest, PredictionResponse, ParagraphAnalysisRequest, ParagraphAnalysisResponse,
     FlashcardFilter, DatabaseFilter, WordOfTheDayResponse, WordCreate, WordSuggestion,
     SpellCheckRequest, SpellCheckResponse, SpellSuggestion, UpdateWordRequest, PaginatedDatabaseResponse,
     WordEnhancement
 )
-from openai_client import get_word_definition, find_synonyms, predict_words, analyze_paragraph
-from utils import clean_word, validate_word_input, sanitize_text_input, insert_delimiter_in_sentence, get_spell_suggestions
+from backend.openai_client import get_word_definition, find_synonyms, predict_words, analyze_paragraph
+from backend.utils import clean_word, validate_word_input, sanitize_text_input, insert_delimiter_in_sentence, get_spell_suggestions
 
 # Initialize FastAPI app
 app = FastAPI(
