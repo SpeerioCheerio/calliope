@@ -40,7 +40,7 @@ def init_database():
         word_count = db.query(Word).count()
         if word_count == 0:
             # Load starting words
-            starting_words_path = Path("../starting_words.json")
+            starting_words_path = Path("starting_words.json")
             if starting_words_path.exists():
                 with open(starting_words_path, 'r', encoding='utf-8') as f:
                     words_data = json.load(f)
